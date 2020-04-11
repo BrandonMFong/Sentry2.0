@@ -7,6 +7,11 @@
 
 UINT32 PressedDown = 0x8000;
 
+void Clear()
+{
+	system("cls");
+}
+
 bool KeyPress() // Tests any of the ASCII characters
 {
 	char key = 0x20;
