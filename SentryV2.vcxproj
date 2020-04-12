@@ -163,7 +163,6 @@
     <Text Include="bin\Person9.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pwd.h" />
     <ClInclude Include="SentryV2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

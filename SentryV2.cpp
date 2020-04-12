@@ -4,7 +4,6 @@
 #include <Windows.h>
 #include <conio.h>
 #include "Sentryv2.h"
-#include "pwd.h"
 
 using namespace std;
 
@@ -12,7 +11,7 @@ int main()
 {
 	string Content;
 	ifstream File;
-	string basepath = Pwd() +  "\\bin\\";
+	string basepath = "B:\\SOURCES\\Repos\\SentryV2\\bin\\";
 
 
 	int i = 0;

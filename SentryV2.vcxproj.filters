@@ -61,8 +61,5 @@
     <ClInclude Include="SentryV2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pwd.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
