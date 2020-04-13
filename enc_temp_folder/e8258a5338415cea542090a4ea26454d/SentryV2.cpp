@@ -13,6 +13,8 @@ int main()
 {
 	string Content;
 	ifstream File;
+	string test = Pwd();
+	string test1 = LeafDir();
 	string basepath = "B:\\SOURCES\\Repos\\SentryV2\\bin\\";
 	thread TestExitKey(TestIfExit);
 	thread TestAlarm(TestAlarm);
