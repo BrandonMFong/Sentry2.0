@@ -58,7 +58,7 @@ bool KeyPress() // Tests any of the ASCII characters
 	bool out = false;
 	for (int i = 32; i < 128; i++)
 	{
-		out = out | GetKeyState(key);
+		out = out | (GetKeyState(key) & PressedDown);
 		key++;
 	}
 	return out;
@@ -71,9 +71,7 @@ void TestAlarm()
 		if (KeyPress())
 		{
 			while (1)
-			{
 				Beep(523, 500);
-			}
 		}
 	}
 }

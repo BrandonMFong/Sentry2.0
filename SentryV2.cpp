@@ -33,7 +33,7 @@ int main()
 				cout << Content << "\n";
 			}
 			File.close();
-			Sleep(20);
+			Sleep(250);
 			Clear();
 		}
 		else
@@ -43,6 +43,7 @@ int main()
 		}
 	}
 	TestExitKey.join();
+	TestAlarm.join();
 
 }
 

@@ -1,9 +1,6 @@
 .vs/*
 Debug/*
-Release/*.tlog
-Release/*.iobj
-Release/*.ipdb
-Release/*.log
-Release/*.vcxproj.FileListAbsolute.txt
-Release/*.obj
-Release/*.pdb
+Release/*
+out/*.iobj
+out/*.ipdb
+out/*.pdb
